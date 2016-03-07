@@ -1,0 +1,62 @@
+body {
+    background: lightgray;
+}
+
+.wrapper {
+    max-width: 500px;
+    height: 500px;
+    margin: 40px auto;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+}
+
+table {
+    width: 500px;
+}
+
+td {
+    border: 8px solid black;
+    width: 60px;
+    height: 60px;
+}
+
+td:first-child {
+    width: 55px;
+    border-left: none;
+}
+
+tr:nth-child(2),
+tr:nth-child(3) {
+    height: 120px;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+tr:first-child td {
+    border-top: none;
+    height: 55px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(6) td,
+tr:nth-child(7) td {
+    height: 30px;
+}
+.coral {
+    background: #FF7F50;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background: blue;
+}
+.black {
+    background: black;
+}
